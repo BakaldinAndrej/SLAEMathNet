@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLAEMathNet", "SLAEMathNet\SLAEMathNet.csproj", "{F783C3EA-672E-459C-9D66-DBA9B2475398}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLAEMathNet.tests", "SLAEMathNet.tests\SLAEMathNet.tests.csproj", "{9ED5AD1D-4C5E-49EB-9E6D-176187AE826D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F783C3EA-672E-459C-9D66-DBA9B2475398}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F783C3EA-672E-459C-9D66-DBA9B2475398}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F783C3EA-672E-459C-9D66-DBA9B2475398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ED5AD1D-4C5E-49EB-9E6D-176187AE826D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED5AD1D-4C5E-49EB-9E6D-176187AE826D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED5AD1D-4C5E-49EB-9E6D-176187AE826D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED5AD1D-4C5E-49EB-9E6D-176187AE826D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

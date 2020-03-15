@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SLAEMathNet"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" MinHeight="180" Height="180" MinWidth="300" MaxWidth="560" Width="560">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <TextBlock TextWrapping="Wrap" Grid.Row="0" Grid.ColumnSpan="2" Margin="5">Выберите файл с вашей системой линейных уравнений, задав имена переменных как х1,х2,х3...</TextBlock>
+        <Button Click="ChooseFileName" Grid.Row="1" Margin="5" Height="30">Выбрать файл</Button>
+        <TextBlock Name="FileName" TextWrapping="Wrap" Grid.Row="1" Grid.Column="1" Margin="5"></TextBlock>
+        <Button Click="Calc" VerticalAlignment="Top" Grid.Row="2" Margin="5" Height="30">Вычислить</Button>
+        <TextBlock Name="Answer" TextWrapping="Wrap" Grid.Row="2" Grid.Column="1" Margin="5"></TextBlock>
     </Grid>
 </Window>
